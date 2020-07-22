@@ -78,14 +78,6 @@ public class MainActivity extends AppCompatActivity {
         }).attachToRecyclerView(recyclerView);
 
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//               Intent intent=new Intent(MainActivity.this,AddNewStudentActivity.class);
-//               startActivityForResult(intent,NEW_STUDENT_ACTIVITY_REQUEST_CODE);
-//            }
-//        });
     }
 
     public class MainActivityClickHandlers {
